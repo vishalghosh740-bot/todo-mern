@@ -1,0 +1,58 @@
+.app {
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  padding: 0 16px;
+}
+
+.task-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.task-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.task.completed .task-title {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-status {
+  display: inline-block;
+  font-size: 12px;
+  background: #eee;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin: 6px 0;
+}
+
+.error-text {
+  color: #c0392b;
+}
+
+.info-text {
+  color: #666;
+}
